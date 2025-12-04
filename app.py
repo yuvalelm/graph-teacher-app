@@ -25,7 +25,7 @@ with st.sidebar:
 # --- פונקציות עזר ---
 def analyze_image(image, key):
     genai.configure(api_key=key)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-
     prompt = """
     נתח את הגרף הזה עבור מורה למדעים.
     התייחס ל: כותרת, צירים (X,Y) ויחידות, מגמות עיקריות (עלייה/ירידה), נקודות קיצון וחיתוכים בולטים.
